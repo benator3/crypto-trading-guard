@@ -179,3 +179,7 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+# 보안 및 개인 데이터 파일 (깃 추적 제외)
+.env
+trade_journal.csv
+*.log
